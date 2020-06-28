@@ -1,0 +1,125 @@
+body {
+	background-color: #000; /* comentários */
+	color: #fff;
+	background-image: url("imagens/fundo.png");
+	line-height: 18px;
+	margin: 0px;
+	
+}
+
+#estrutura {
+	text-align: center;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 50px;
+	color:#999;
+}
+
+#estrutura button{
+	background-color: #333;
+	border: none;
+	color: #888;
+	padding: 10px 22px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+    font-size: 20px;
+    margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+}
+
+#estrutura button:hover{
+	background-color: #555;
+	color: #a00;
+}
+
+#menu {
+    background-repeat: no-repeat;
+    background-position-x: 0;
+	background-position-y: 0; 
+	height: 44px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#menu ul {
+			list-style-type: none;
+			padding: 0;
+			margin: 0;
+			height: 44px;
+			background-color: #222;
+			overflow: hidden;
+		}
+#menu li a{
+			display: block;
+			color: #888;
+			font-family: Arial;
+			font-size: 25px;
+			padding: 13px 16px;
+			text-decoration: none;
+			text-align: center;
+		}
+#menu li a:hover{
+			background-color: #555;
+			color: #a00;
+		}
+#menu li{
+			float: left;
+
+		}
+#menu li:last-child{
+			border-bottom: none;
+		}
+#icone li{
+			
+			height: 34px;
+			width: 100px;
+		}
+#icone li a{
+			height: 34px;
+		}
+#icone li a:hover{
+			opacity: 0.1;
+        }
+        
+
+
+input[type=text]{
+    background-color: #555;
+}
+
+fieldset {
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 750px; 
+    background-color: rgba(73, 73, 73, 0.315);
+    border: 2px solid #a00;
+   }
+   legend {
+   font-weight: bold;
+   font-size: large;
+   background-color: rgba(170, 0, 0, 0.705);
+   padding: 5px;
+   }
+   label {
+   width: 80px;
+  
+   padding: 5px;
+   display: inline-block;
+   font-weight: bold;
+   text-align: right;
+   }
+   input {
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   border-bottom-color: rgba(170, 0, 0, 0.568);
+   border-top-style: none;
+   border-right-style: none;
+   border-left-style: none;
+   padding: 5px;
+   }
+   .menores{
+   width: 55px;
+   }
