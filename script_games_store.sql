@@ -33,7 +33,9 @@ estado varchar(2),
 senha varchar(220) not null
 );
 
-insert into tbClientes (nome,email,cpf,senha) values ('admin','admin','12345678901','$2y$10$gw6iiKQi/XqgA2GRru4XRuqG1cK0i2UHeE64c1IqV1FEE9VaWcwD2');
+--Senha do ADM é admin
+
+insert into tbClientes (nome,email,cpf,senha) values ('admin','admin','12345678901','$2y$10$s0.63TcuRhJftEVgl7cUKeeOepzoxdALzqPCsFi6bI07uZnnQgbwO');
 
 
 create table tbVendas(
